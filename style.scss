@@ -1,0 +1,253 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header{
+  &__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  gap: 49px;
+}
+&__logo {
+  margin-right: auto;
+  font-weight: 700;
+  text-decoration: none;
+}
+&__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+&__link:hover {
+  text-decoration: underline;
+}
+}
+
+.hero{
+&__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+&__title {
+  font-size: 87px;
+  text-transform: capitalize;
+}
+&__text {
+  font-size: 18px;
+}
+&__btn {
+  display: block;
+  color: #fff;
+  background-color: #8d8dda;
+  padding: 17px;
+  width: max-content;
+  border-radius: 100px;
+  letter-spacing: 4.68px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 43px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+&__btn:hover {
+  background: rgba(137, 208, 209, 1);
+}
+&__buttons {
+  display: flex;
+  gap: 30px;
+  margin-top: 33px;
+}
+&__img:hover {
+  transform: scale(1.2);
+}
+&__img {
+  transition: all 0.3s;
+}
+}
+
+.btn-2 {
+  background-color: black;
+  border: rgba(137, 208, 209, 1) solid 2px;
+}
+
+.brands{
+&__title {
+  margin-top: 100px;
+  padding-left: 57px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 4.68px;
+  text-transform: uppercase;
+}
+&__paintzone {
+  display: flex;
+  justify-content: space-around;
+  width: 1065px;
+  height: 89.161px;
+  background: rgba(46, 39, 97, 0.8);
+  align-items: center;
+}
+&__icon {
+}    
+}
+
+
+.analytics{
+.analytics__wrap{
+  display: flex;
+  flex-direction: row;
+  margin: 80.84px 0 108px;
+  justify-content: center;
+}
+
+.analytics__title{
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px;
+}
+
+.analytics__subtitle{
+  width: 488px;
+height: 127px;
+font-size: 57px;
+font-style: normal;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: -1.14px;
+text-transform: capitalize;
+}
+
+.analytics__text{
+  width: 421px;
+height: 55px;
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px;
+margin-bottom: 61px;
+}
+
+.analytics__btn{
+  color: #FFF;
+  font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 43px;
+letter-spacing: 4.68px;
+text-transform: uppercase;
+width: 267px;
+height: 55px;
+border-radius: 44px;
+background: rgba(46, 39, 97, 0.80);
+}
+}
+
+
+
+.cont4{
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 0 70px;
+  justify-content: center;
+  
+}
+
+
+
+.container5{
+  margin: 0 auto 179px;
+}
+
+.bio{
+  border-radius: 28px;
+background: #252155;
+  width: 345px;
+height: 344px;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0 14px;
+padding-bottom: 92px;
+}
+
+.olivia{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.portrait{
+  border-radius: 50%;
+  width: 211px;
+height: 214.197px;
+flex-shrink: 0;
+  mix-blend-mode: luminosity;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.port{
+padding-top: 92px;
+}
+
+
+.testimonials{
+  color: #89D0D1;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 43px;
+letter-spacing: 4.68px;
+text-transform: uppercase;
+margin: 0 auto;
+}
+
+.others{
+  margin: 0 auto 12px;
+  width: 469px;
+  height: 130px;
+  color: #E5E5E5;
+text-align: center;
+font-family: Outfit;
+font-size: 57px;
+font-style: normal;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: -1.14px;
+text-transform: capitalize;
+}
+
+.cole{
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 43px;
+letter-spacing: 4.68px;
+text-transform: uppercase;
+}
+
+.lorem{
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
